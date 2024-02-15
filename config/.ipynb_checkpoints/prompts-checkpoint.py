@@ -40,6 +40,7 @@ Adhere to the following format without any decoration.
 Format -> Interpretation: (Your generated text)
 Check if your output includes the guessed collection title 'x'. If not, reinterpret and include it without fail.
 The conversation you will interpret is as follows
+***Please always use English in your answers.***
 """.strip()
 ]
 
@@ -47,7 +48,7 @@ A_FORMAT = ["解釈:", "Interpretation:"]
 
 GPTPROMPT_B= [f"""
 {GPT_PROMPT_SHARED[0]}
-A2 (プロンプト) ファッションブランドHATRAのコレクションxの代表作が表現する世界観や連想される人物像を、text2imageの画像生成モデルを用いて可視化するため、詳細な優れたプロンプトを60単語で提案してください。単語同士を区切る時はカンマを使用してください。
+A2 (プロンプト) ファッションブランドHATRAのコレクションxの代表作が表現する世界観や連想される人物像を、text2imageの画像生成モデルを用いて可視化するため、詳細な優れたプロンプトを40単語で提案してください。単語同士を区切る時はカンマを使用してください。
 プロンプトは、可能な限り生地や雰囲気、固有名詞などの具体的で豊富なボキャブラリーを使用することを意識してください。
 同時に、Maryの意図した詩的、隠喩的な表現をなるべく崩さないように、1~3の単語はそのままプロンプトに移植して構いません。
 プロンプトにはHATRAの文字列、nagamiの発言内容は使用しないこと。
@@ -58,11 +59,12 @@ A2 (プロンプト) ファッションブランドHATRAのコレクションx�
 f"""
 {GPT_PROMPT_SHARED[1]}
 
-A2 (Prompt): Please propose a detailed, excellent prompt of 5 words to visualize the world view and the associated personas represented by HATRA's collection X, using a text2image image generation model. Use commas to separate words. The prompt should utilize a rich vocabulary as much as possible while preserving the poetic and metaphorical expressions intended by Mary.
+A2 (Prompt): Please propose a detailed, excellent prompt of 40 words to visualize the world view and the associated personas represented by HATRA's collection X, using a text2image image generation model. Use commas to separate words. The prompt should utilize a rich vocabulary as much as possible while preserving the poetic and metaphorical expressions intended by Mary.
 Do not use the string 'HATRA' or Nagami's statements in the prompt.
 Adhere to the following format without any decoration. The prompt must be in English.
 Format -> Prompt: (Your generated text)
 The content you will interpret is as follows
+***Please always use English in your answers.***
 """.strip()
 ]
 
@@ -81,6 +83,7 @@ A3 (Question) Think of a question to further deepen the discussion with Mary and
 Adhere to the following format without any decoration.
 Format -> Question: (Your generated text)
 The content you will interpret is as follows
+***Please always use English in your answers.***
 """.strip()
 ]
 
