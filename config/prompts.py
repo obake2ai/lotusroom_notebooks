@@ -93,3 +93,8 @@ ATTENTION_MSG = [
 "特に次のMaryの発言に対する解釈に重点を特においてください",
 "Please particularly focus on the interpretation of the following statement by Mary."
 ]
+
+LANGUAGE_MSG = [
+"解答には、必ず日本語を使ってください。",
+"***Please always use English in your answers.***"
+]
