@@ -94,7 +94,22 @@ ATTENTION_MSG = [
 "Please particularly focus on the interpretation of the following statement by Mary."
 ]
 
-LANGUAE_MSG = [
+LANGUAGE_MSG = [
 "解答には、必ず日本語を使ってください。",
 "***Please always use English in your answers.***"
+]
+
+O_QUESTIONS= [
+[
+    "つまり、このコレクションを通じてあなたが伝えたいこととは？",
+    "もうすこし具体的に教えてもらえますでしょうか。",
+    "あなたの発言は支離滅裂で要領を得ません。もっとわかりやすく教えてください。",
+    "では、Maryさんはこのファッションを通じて何を表現したいのでしょうか。"
+],
+[
+    "In other words, what is your message through this collection?",
+    "Can you be a little more specific?",
+    "Your statement is incoherent and doesn't get the point across. Could you be more specific?",
+    "So, Mary, what do you want to express through this fashion?"
+] 
 ]
