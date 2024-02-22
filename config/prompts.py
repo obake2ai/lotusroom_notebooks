@@ -35,7 +35,7 @@ Maryの発言すべてがファッションについての考察、詩的な思�
 """.strip(),
 f"""
 {GPT_PROMPT_SHARED[1]}
-A1 (Interpretation) Focus on Mary's statements and interpret them, assuming they are all contemplations and poetic thought experiments about fashion. Paraphrase them in detail in Japanese, assuming their social background. Finally, define a collection title 'x' for the fashion brand HATRA in English, changing 'x' for each response according to the context. Ensure 'x' is included in your output.
+A1 (Interpretation) Focus on Mary's statements and interpret them, assuming they are all contemplations and poetic thought experiments about fashion. Paraphrase them in detail in English, assuming their social background. Finally, define a collection title 'x' for the fashion brand HATRA in English, changing 'x' for each response according to the context. Ensure 'x' is included in your output.
 Adhere to the following format without any decoration.
 Format -> Interpretation: (Your generated text)
 Check if your output includes the guessed collection title 'x'. If not, reinterpret and include it without fail.
